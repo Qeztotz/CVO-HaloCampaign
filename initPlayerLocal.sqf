@@ -1,7 +1,11 @@
-// CREATING TEMPORARY FUNCTION
 
+// CREATING TEMPORARY FUNCTION
 if (isNil "CVO_COMMON_FNC_holdAction_TP") then {
     CVO_COMMON_FNC_holdAction_TP = {
+        
+        #define DURATION 3
+        #define ICON "a3\ui_f\data\igui\cfg\holdactions\holdaction_loaddevice_ca.paa"
+        
         params [
             ["_door", objNull, [objNull]],
             ["_destination", objNull, [objNull]],
@@ -21,23 +25,25 @@ if (isNil "CVO_COMMON_FNC_holdAction_TP") then {
 
             ACE_PLAYER setPosASL _tgtPosASL;
             ACE_PLAYER setDir _tgtDIR;
+
+            [ { ["CVO_holdAction_TP_black", true, DURATION * 0.35 ] call BIS_fnc_blackIn; } , [], DURATION * 0.2 ] call CBA_fnc_waitAndExecute;
+
+            
         };
-        
-        private _holdAction = "a3\ui_f\data\igui\cfg\holdactions\holdaction_loaddevice_ca.paa";
 
         [
             _door,                                                          // Object the action is attached to
             _text,                                                          // Title of the action
-            _holdAction,                                                    // Idle icon shown on screen
-            _holdAction,                                                    // Progress icon shown on screen
+            ICON,                                                    // Idle icon shown on screen
+            ICON,                                                    // Progress icon shown on screen
             "true",                                                         // Condition for the action to be shown
             "true",                                                         // Condition for the action to progress
-            {},																// Code executed when action starts
+            { ["CVO_holdAction_TP_black", true, DURATION * 0.95 ] call BIS_fnc_blackOut; },																// Code executed when action starts
             {},																// Code executed on every progress tick
             _completion,							                        // Code executed on completion
-            {},																// Code executed on interrupted
+            { ["CVO_holdAction_TP_black", true, DURATION * 0.3 ] call BIS_fnc_blackIn; },      // Code executed on interrupted
             [_destination],												    // Arguments passed to the scripts as _this select 3
-            3,																// Action duration in seconds
+            DURATION,																// Action duration in seconds
             0,																// Priority
             false,															// Remove on completion
             false,															// Show in unconscious state

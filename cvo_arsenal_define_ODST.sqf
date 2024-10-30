@@ -60,7 +60,6 @@ diag_log ("[CVO] [Arsenal_Define] - start");
 
 if (isServer) then {
 	_array = (getMissionLayerEntities EDITOR_LAYER_NAME)#0;
-	diag_log format ['[CVO](debug)(cvo_arsenal_define_ODST) _array: %1', _array];
 	[_array] remoteExecCall ["cvo_arsenal_fnc_addArsenalInteraction", [0,-2] select isDedicated, true];
 };
 

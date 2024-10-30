@@ -74,38 +74,6 @@ CVO_A_BASE = [];
 // ###### Baseline Equipment ###### 
 // The Following can be mostly left as default
 
-
-// How to add Equipment if a certain Addon is Loaded - here, GreenMag
-if (isClass (configFile >> "CfgPatches" >> "greenmag_main")) then {
-
-		CVO_A_BASE append [
-			//"greenmag_ammo_556x45_basic_60Rnd",
-			//"greenmag_ammo_556x45_basic_30Rnd",
-
-			"greenmag_ammo_762x51_basic_60Rnd",
-			"greenmag_ammo_762x51_basic_30Rnd",
-
-			//"greenmag_ammo_545x39_basic_60Rnd",
-			//"greenmag_ammo_545x39_basic_30Rnd",
-
-			//"greenmag_ammo_762x39_basic_60Rnd",
-			//"greenmag_ammo_762x39_basic_30Rnd",
-			
-			"greenmag_ammo_9x21_basic_60Rnd",
-			"greenmag_ammo_9x21_basic_30Rnd",
-
-			//"greenmag_ammo_45ACP_basic_30Rnd",
-			//"greenmag_ammo_45ACP_basic_60Rnd",
-		
-			//"greenmag_ammo_762x54_basic_60Rnd",
-			//"greenmag_ammo_762x54_basic_30Rnd",
-
-			"greenmag_item_speedloader"
-		];
-	diag_log "[CVO] [ARSENAL_DEFINE] - GreenMag added";
-};
-
-
 // Medical 
 CVO_A_BASE append [
 	"ACE_packingBandage",
@@ -124,18 +92,6 @@ CVO_A_BASE append [
 	];
 
 // Tools & Equipment
-
-private _rations = [
-	"ACE_MRE_BeefStew",
-	"ACE_MRE_ChickenTikkaMasala",
-	"ACE_MRE_ChickenHerbDumplings",
-	"ACE_MRE_CreamChickenSoup",
-	"ACE_MRE_CreamTomatoSoup",
-	"ACE_MRE_LambCurry",
-	"ACE_MRE_MeatballsPasta",
-	"ACE_MRE_SteakVegetables"
-];
-//CVO_A_BASE append _rations;
 
 CVO_A_BASE append [
 	"immersion_pops_poppack",
@@ -230,18 +186,11 @@ CVO_A_BASE append [
 	"OPTRE_HUD_b_Glasses",
 	"OPTRE_Glasses_Visor_Blue",
 	"G_Spectacles",
-	"OPTRE_CBRN",
-	//cigs and lollipop
-	"immersion_pops_pop0",
-	"murshun_cigs_cig0",
-	"immersion_cigs_cigar0"
+	"OPTRE_CBRN"
 	];
 
 // NVGs
-CVO_A_BASE append [	
-	//cigs and lollipop
-	"immersion_cigs_cigar0_nv",
-	"murshun_cigs_cig0_nv",
+CVO_A_BASE append [
 	//Neural Implant
 	"OPTRE_NVG",
 	//Helmet Mods

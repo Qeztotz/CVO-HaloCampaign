@@ -53,5 +53,7 @@ if (isNil "CVO_COMMON_FNC_holdAction_TP") then {
 };
 
 // USING FUNCTION
-[TP_Inbound_Door, TP_Inbound_LZ, "Enter the Base"] call CVO_COMMON_FNC_holdAction_TP;
-[TP_Outbound_Door, TP_Outbound_LZ, "Leave the Base"] call CVO_COMMON_FNC_holdAction_TP;
+[TP_Entrance_Inbound_Door, TP_Entrance_Inbound_LZ, "Enter the Base"] call CVO_COMMON_FNC_holdAction_TP;
+[TP_Entrance_Outbound_Door, TP_Entrance_Outbound_LZ, "Leave the Base"] call CVO_COMMON_FNC_holdAction_TP;
+[TP_Exit_Inbound_Door, TP_Exit_Inbound_LZ, "Enter the Base"] call CVO_COMMON_FNC_holdAction_TP;
+[TP_Exit_Outbound_Door, TP_Exit_Outbound_LZ, "Leave the Base"] call CVO_COMMON_FNC_holdAction_TP;

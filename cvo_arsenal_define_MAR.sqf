@@ -468,7 +468,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"OPTRE_M393_Scope",
 		"OPTRE_M393_EOTECH",
 		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_15Rnd_762x51_Mag_Tracer",
 
 		//Sniper Rifle
 		"OPTRE_SRS99C",

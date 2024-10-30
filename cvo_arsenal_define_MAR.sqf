@@ -75,37 +75,6 @@ CVO_A_BASE = [];
 // The Following can be mostly left as default
 
 
-// How to add Equipment if a certain Addon is Loaded - here, GreenMag
-if (isClass (configFile >> "CfgPatches" >> "greenmag_main")) then {
-
-		CVO_A_BASE append [
-			//"greenmag_ammo_556x45_basic_60Rnd",
-			//"greenmag_ammo_556x45_basic_30Rnd",
-
-			"greenmag_ammo_762x51_basic_60Rnd",
-			"greenmag_ammo_762x51_basic_30Rnd",
-
-			//"greenmag_ammo_545x39_basic_60Rnd",
-			//"greenmag_ammo_545x39_basic_30Rnd",
-
-			//"greenmag_ammo_762x39_basic_60Rnd",
-			//"greenmag_ammo_762x39_basic_30Rnd",
-			
-			"greenmag_ammo_9x21_basic_60Rnd",
-			"greenmag_ammo_9x21_basic_30Rnd",
-
-			//"greenmag_ammo_45ACP_basic_30Rnd",
-			//"greenmag_ammo_45ACP_basic_60Rnd",
-		
-			//"greenmag_ammo_762x54_basic_60Rnd",
-			//"greenmag_ammo_762x54_basic_30Rnd",
-
-			"greenmag_item_speedloader"
-		];
-	diag_log "[CVO] [ARSENAL_DEFINE] - GreenMag added";
-};
-
-
 // Medical 
 CVO_A_BASE append [
 	"ACE_packingBandage",
@@ -124,18 +93,6 @@ CVO_A_BASE append [
 	];
 
 // Tools & Equipment
-
-private _rations = [
-	"ACE_MRE_BeefStew",
-	"ACE_MRE_ChickenTikkaMasala",
-	"ACE_MRE_ChickenHerbDumplings",
-	"ACE_MRE_CreamChickenSoup",
-	"ACE_MRE_CreamTomatoSoup",
-	"ACE_MRE_LambCurry",
-	"ACE_MRE_MeatballsPasta",
-	"ACE_MRE_SteakVegetables"
-];
-//CVO_A_BASE append _rations;
 
 CVO_A_BASE append [
 	"immersion_pops_poppack",
@@ -622,7 +579,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 
 CVO_A_HASH_PlayerKit = createHashMapFromArray [
 	["_SP_PLAYER_", 		["Editor Debug", 	["ACE_Banana"],		{systemChat "CVO_A_Playerkit test Successful - ACE_Sandbag_empty Given"; 	["ACE_Sandbag_empty"]}		]	],
-	["76561198071877982", 	["Ketzl", 			["H_Watchcap_sgg", "ACE_SpraypaintBlack"],	{[]}	]],
+	["76561198071877982", 	["Ketzl", 			["H_Watchcap_sgg"],	{[]}	]],
 	["76561198023521982", 	["sld_Delta", 		["OPTRE_M12_SOC","OPTRE_M12_Suppressor","OPTRE_M73_SmartLink","OPTRE_64Rnd_57x31_Mag","UNSC_Knife_reversed","OPTRE_DME_Uniform","OPTRE_UNSC_M52D_Armor_Jedi","OPTRE_S12_SOLA_Jetpack","ACE_Altimeter","OPTRE_NVG_HURS","OPTRE_UNSC_Recon_Helmet"],	{[]}	]]
 ];
 

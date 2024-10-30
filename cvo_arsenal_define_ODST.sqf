@@ -52,7 +52,7 @@ diag_log ("[CVO] [Arsenal_Define] - start");
 // ######  Define the Editor Layername here
 // #####################################################
 
-#define EDITOR_LAYER_NAME "CVO_Arsenal_Boxes"
+#define EDITOR_LAYER_NAME "CVO_Arsenal"
 
 // #####################################################
 // ###### CODE - DONT CHANGE
@@ -82,7 +82,9 @@ CVO_A_BASE append [
 	"ACE_quikclot",
 	"ACE_tourniquet", 
 	"ACE_splint",
+
 	"ACE_morphine",
+
 	"ACE_salineIV", 
 	"ACE_salineIV_500",
 	"ACE_salineIV_250",
@@ -148,7 +150,7 @@ CVO_A_BASE append  ["ACRE_PRC343"];
 CVO_A_BASE append [
 	"OPTRE_UNSC_Army_Uniform_T2_BLK",
 	"OPTRE_UNSC_ODST_Uniform"
-	];
+];
 
 // Vests
 CVO_A_BASE append [
@@ -167,7 +169,7 @@ CVO_A_BASE append [
 	"CVO_LegStrapBag_black",
 	"OPTRE_ILCS_Rucksack_Black",
 	"OPTRE_ILCS_Rucksack_Heavy"
-	];
+];
 
 // Headgear
 CVO_A_BASE append [
@@ -176,7 +178,7 @@ CVO_A_BASE append [
 	"OPTRE_CMA_Beret",
 	"H_Watchcap_blk",
 	"OPTRE_PatrolCap_Navy"
-	];
+];
 
 // Facewear
 CVO_A_BASE append [
@@ -334,7 +336,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 
 		// Tools and Detectors
 		"ACE_VMM3",
-		"ACE_VMH3", 
+		"ACE_VMH3",
 		"ACE_wirecutter",
 		"ToolKit", 
 		"ACE_Fortify",
@@ -356,7 +358,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"bipod_01_F_blk",
 		//100 rnd belts
 		"OPTRE_100Rnd_95x40_Box",
-		"OPTRE_100Rnd_95x40_Box_Tracer",
+		"OPTRE_100Rnd_95x40_Box_Tracer"
 		], 
 	{}]],
 	["Medium-Machinegunner", [[
@@ -365,7 +367,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"bipod_01_F_blk",
 		//100 rnd belts
 		"OPTRE_100Rnd_762x51_Box",
-		"OPTRE_100Rnd_762x51_Box_Tracer",
+		"OPTRE_100Rnd_762x51_Box_Tracer"
 		], 
 	{}]],
 	["LMG-assistant", [[
@@ -474,7 +476,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"OPTRE_M393_Scope",
 		"OPTRE_M393_EOTECH",
 		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_15Rnd_762x51_Mag_Tracer",
 		
 		//Marksman Visor
 		"OPTRE_NVG_MVI",
@@ -499,7 +501,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"OPTRE_M393_Scope",
 		"OPTRE_M393_EOTECH",
 		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_15Rnd_762x51_Mag_Tracer",
 
 		//Sniper Rifle
 		"OPTRE_SRS99C",

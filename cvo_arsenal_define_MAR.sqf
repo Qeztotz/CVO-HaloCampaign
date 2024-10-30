@@ -231,14 +231,6 @@ CVO_A_BASE append  [
 	"acc_pointer_IR",
 	"OPTRE_MA37_Smartlink_Scope",
 
-	// Battle Rifle
-	"OPTRE_BR55_Grey",
-	//36rnd magazines
-	"OPTRE_36Rnd_95x40_Mag",
-	"OPTRE_36Rnd_95x40_Mag_Tracer",
-	//attachments
-	"OPTRE_BR55HB_Scope_Grey",
-
 	// SMG
 	"OPTRE_M7",
 	//60rnd magazines
@@ -407,7 +399,13 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		], 
 	{}]],
 	["Rifleman", [[
-
+		// Battle Rifle
+		"OPTRE_BR55_Grey",
+		//36rnd magazines
+		"OPTRE_36Rnd_95x40_Mag",
+		"OPTRE_36Rnd_95x40_Mag_Tracer",
+		//attachments
+		"OPTRE_BR55HB_Scope_Grey"
 		], 
 	{}]],
 	["Scout", [[
@@ -420,13 +418,6 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		], 
 	{}]],
 	["Sniper", [[
-		//DMR
-		"OPTRE_M392_DMR",
-		"OPTRE_M393_Scope",
-		"OPTRE_M393_EOTECH",
-		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer",
-
 		//Sniper Rifle
 		"OPTRE_SRS99C",
 		"OPTRE_SRS99C_Scope",

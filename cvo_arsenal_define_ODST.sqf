@@ -373,43 +373,13 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 	["LMG-assistant", [[
 		//100 rnd belts
 		"OPTRE_100Rnd_95x40_Box",
-		"OPTRE_100Rnd_95x40_Box_Tracer",
-
-		// Battle Rifle
-		//"OPTRE_BR55_Grey",
-		//36rnd magazines
-		//"OPTRE_36Rnd_95x40_Mag",
-		//"OPTRE_36Rnd_95x40_Mag_Tracer",
-		//attachments
-		//"OPTRE_BR55HB_Scope_Grey",
-
-		//DMR
-		"OPTRE_M392_DMR",
-		"OPTRE_M393_Scope",
-		"OPTRE_M393_EOTECH",
-		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_100Rnd_95x40_Box_Tracer"
 		], 
 	{}]],
 	["MMG-assistant", [[
 		//100 rnd belts
 		"OPTRE_100Rnd_762x51_Box",
-		"OPTRE_100Rnd_762x51_Box_Tracer",
-
-		// Battle Rifle
-		//"OPTRE_BR55_Grey",
-		//36rnd magazines
-		//"OPTRE_36Rnd_95x40_Mag",
-		//"OPTRE_36Rnd_95x40_Mag_Tracer",
-		//attachments
-		//"OPTRE_BR55HB_Scope_Grey",
-
-		//DMR
-		"OPTRE_M392_DMR",
-		"OPTRE_M393_Scope",
-		"OPTRE_M393_EOTECH",
-		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_100Rnd_762x51_Box_Tracer"
 		], 
 	{}]],
 	["Anti-Tank", [[
@@ -427,22 +397,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"OPTRE_M41_Twin_HEAT",
 		"OPTRE_M41_Twin_HE_Thermal_ProximityFuse",
 		"OPTRE_M41_Twin_HEAP",
-		"OPTRE_M41_Twin_HEAT_SALH",
-
-		// Battle Rifle
-		//"OPTRE_BR55_Grey",
-		//36rnd magazines
-		//"OPTRE_36Rnd_95x40_Mag",
-		//"OPTRE_36Rnd_95x40_Mag_Tracer",
-		//attachments
-		//"OPTRE_BR55HB_Scope_Grey",
-
-		//DMR
-		"OPTRE_M392_DMR",
-		"OPTRE_M393_Scope",
-		"OPTRE_M393_EOTECH",
-		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_M41_Twin_HEAT_SALH"
 		], 
 	{}]],
 	["Rifleman", [[
@@ -463,21 +418,6 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		], 
 	{}]],
 	["Scout", [[
-		// Battle Rifle
-		//"OPTRE_BR55_Grey",
-		//36rnd magazines
-		//"OPTRE_36Rnd_95x40_Mag",
-		//"OPTRE_36Rnd_95x40_Mag_Tracer",
-		//attachments
-		//"OPTRE_BR55HB_Scope_Grey",
-
-		//DMR
-		"OPTRE_M392_DMR",
-		"OPTRE_M393_Scope",
-		"OPTRE_M393_EOTECH",
-		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer",
-		
 		//Marksman Visor
 		"OPTRE_NVG_MVI",
 		"OPTRE_NVG_MVI_HUL",
@@ -496,12 +436,6 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		], 
 	{}]],
 	["Sniper", [[
-		//DMR
-		"OPTRE_M392_DMR",
-		"OPTRE_M393_Scope",
-		"OPTRE_M393_EOTECH",
-		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer",
 
 		//Sniper Rifle
 		"OPTRE_SRS99C",

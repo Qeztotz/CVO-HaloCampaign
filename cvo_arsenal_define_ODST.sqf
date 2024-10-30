@@ -82,7 +82,7 @@ CVO_A_BASE append [
 	"ACE_quikclot",
 	"ACE_tourniquet", 
 	"ACE_splint",
-
+	"ACE_painkillers",
 	"ACE_morphine",
 
 	"ACE_salineIV", 

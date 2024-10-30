@@ -114,7 +114,9 @@ CVO_A_BASE append [
 	"ACE_quikclot",
 	"ACE_tourniquet", 
 	"ACE_splint",
+
 	"ACE_morphine",
+
 	"ACE_salineIV", 
 	"ACE_salineIV_500",
 	"ACE_salineIV_250",
@@ -135,6 +137,7 @@ private _rations = [
 	"ACE_MRE_MeatballsPasta",
 	"ACE_MRE_SteakVegetables"
 ];
+
 //CVO_A_BASE append _rations;
 
 CVO_A_BASE append [
@@ -192,7 +195,7 @@ CVO_A_BASE append  ["ACRE_PRC343"];
 CVO_A_BASE append [
 	"OPTRE_UNSC_Army_Uniform_T2_BLK",
 	"OPTRE_UNSC_ODST_Uniform"
-	];
+];
 
 // Vests
 CVO_A_BASE append [
@@ -211,7 +214,7 @@ CVO_A_BASE append [
 	"CVO_LegStrapBag_black",
 	"OPTRE_ILCS_Rucksack_Black",
 	"OPTRE_ILCS_Rucksack_Heavy"
-	];
+];
 
 // Headgear
 CVO_A_BASE append [
@@ -220,7 +223,7 @@ CVO_A_BASE append [
 	"OPTRE_CMA_Beret",
 	"H_Watchcap_blk",
 	"OPTRE_PatrolCap_Navy"
-	];
+];
 
 // Facewear
 CVO_A_BASE append [
@@ -385,7 +388,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 
 		// Tools and Detectors
 		"ACE_VMM3",
-		"ACE_VMH3", 
+		"ACE_VMH3",
 		"ACE_wirecutter",
 		"ToolKit", 
 		"ACE_Fortify",

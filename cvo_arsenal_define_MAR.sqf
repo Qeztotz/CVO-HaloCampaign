@@ -52,7 +52,7 @@ diag_log ("[CVO] [Arsenal_Define] - start");
 // ######  Define the Editor Layername here
 // #####################################################
 
-#define EDITOR_LAYER_NAME "CVO_Arsenal_Boxes"
+#define EDITOR_LAYER_NAME "CVO_Arsenal"
 
 // #####################################################
 // ###### CODE - DONT CHANGE
@@ -407,7 +407,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"bipod_01_F_blk",
 		//100 rnd belts
 		"OPTRE_100Rnd_95x40_Box",
-		"OPTRE_100Rnd_95x40_Box_Tracer",
+		"OPTRE_100Rnd_95x40_Box_Tracer"
 		], 
 	{}]],
 	["Medium-Machinegunner", [[
@@ -416,7 +416,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 		"bipod_01_F_blk",
 		//100 rnd belts
 		"OPTRE_100Rnd_762x51_Box",
-		"OPTRE_100Rnd_762x51_Box_Tracer",
+		"OPTRE_100Rnd_762x51_Box_Tracer"
 		], 
 	{}]],
 	["LMG-assistant", [[

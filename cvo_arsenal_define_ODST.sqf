@@ -129,7 +129,6 @@ CVO_A_BASE append [
 
 	"ItemMap",
 	"ItemWatch",
-	"ACE_Altimeter",
 	"ItemGPS",
 	"ItemCompass"
 	];
@@ -612,7 +611,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 CVO_A_HASH_PlayerKit = createHashMapFromArray [
 	["_SP_PLAYER_", 		["Editor Debug", 	["ACE_Banana"],		{systemChat "CVO_A_Playerkit test Successful - ACE_Sandbag_empty Given"; 	["ACE_Sandbag_empty"]}		]	],
 	["76561198071877982", 	["Ketzl", 			["H_Watchcap_sgg"],	{[]}	]],
-	["76561198023521982", 	["sld_Delta", 		["OPTRE_M12_SOC","OPTRE_M12_Suppressor","OPTRE_M12_Laser","OPTRE_M73_SmartLink","OPTRE_64Rnd_57x31_Mag","UNSC_Knife_reversed","OPTRE_DME_Uniform","OPTRE_UNSC_M52D_Armor_Light","OPTRE_S12_SOLA_Jetpack","ACE_Altimeter","OPTRE_NVG_HURS","OPTRE_UNSC_Recon_Helmet"],	{[]}	]]
+	["76561198023521982", 	["sld_Delta", 		["OPTRE_M12_SOC","OPTRE_M12_Suppressor","OPTRE_M73_SmartLink","OPTRE_64Rnd_57x31_Mag","UNSC_Knife_reversed","OPTRE_DME_Uniform","OPTRE_UNSC_M52D_Armor_Jedi","OPTRE_S12_SOLA_Jetpack","ACE_Altimeter","OPTRE_NVG_HURS","OPTRE_UNSC_Recon_Helmet"],	{[]}	]]
 ];
 
 

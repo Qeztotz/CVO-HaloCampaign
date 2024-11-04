@@ -8,7 +8,7 @@ class EditorData
 	toggles=545;
 	class ItemIDProvider
 	{
-		nextID=10977;
+		nextID=10978;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1624;
+		nextID=1695;
 	};
 	class Camera
 	{
-		pos[]={7660.582,155.03413,6121.5488};
-		dir[]={0.18121514,-0.49802679,0.84801936};
-		up[]={0.10407472,0.86716187,0.48703086};
-		aside[]={0.97792232,-3.6990969e-08,-0.20897433};
+		pos[]={7676.1387,157.6631,6129.3647};
+		dir[]={0.7185322,-0.56713247,-0.4026525};
+		up[]={0.49475211,0.82361972,-0.27725041};
+		aside[]={-0.48887026,-1.6079866e-08,-0.8723892};
 	};
 };
 binarizationWanted=0;
@@ -266,15 +266,17 @@ addons[]=
 	"Weap_melee_knife",
 	"APR_IMS_iconRework",
 	"A3_Characters_F_Globe_Headgear",
+	"acre_sys_prc117f",
 	"adapterusSUSmellee",
 	"OPTRE_Weapons_Items",
-	"ace_parachute"
+	"ace_parachute",
+	"acre_sys_prc148"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=106;
+		items=108;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -949,15 +951,29 @@ class AddonsMetaData
 		};
 		class Item104
 		{
+			className="acre_sys_prc117f";
+			name="ACRE2 - AN/PRC-117F";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item105
+		{
 			className="adapterusSUSmellee";
 			name="adapterusSUSmellee";
 		};
-		class Item105
+		class Item106
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
+		};
+		class Item107
+		{
+			className="acre_sys_prc148";
+			name="ACRE2 - AN/PRC-148";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
 		};
 	};
 };
@@ -996,7 +1012,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -1013,7 +1029,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -15774,7 +15790,7 @@ class Mission
 									};
 									id=963;
 									type="OPTRE_nose";
-									atlOffset=87.191971;
+									atlOffset=117.29684;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -120775,14 +120791,14 @@ class Mission
 												};
 												class Attribute1
 												{
-													property="enableStamina";
-													expression="_this enablestamina _value;";
+													property="face";
+													expression="_this setface _value;";
 													class Value
 													{
 														class data
 														{
-															singleType="BOOL";
-															value=0;
+															singleType="STRING";
+															value="AsianHead_A3_05";
 														};
 													};
 												};
@@ -120801,14 +120817,14 @@ class Mission
 												};
 												class Attribute3
 												{
-													property="face";
-													expression="_this setface _value;";
+													property="enableStamina";
+													expression="_this enablestamina _value;";
 													class Value
 													{
 														class data
 														{
-															singleType="STRING";
-															value="AsianHead_A3_05";
+															singleType="BOOL";
+															value=0;
 														};
 													};
 												};
@@ -140600,7 +140616,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=2;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
@@ -140694,6 +140710,15 @@ class Mission
 							{
 								typeName="OPTRE_ANPRC_515";
 								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACRE_PRC117F";
+										count=1;
+									};
+								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
@@ -140846,6 +140871,180 @@ class Mission
 								{
 									singleType="SCALAR";
 									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7689.0278,148.8282,6122.7827};
+						angles[]={0,4.9741888,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Officer"",""Rifleman""]];";
+						name="Zorn";
+						description="Battalion G3 (Zeus)";
+						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA37";
+								optics="OPTRE_MA37_Smartlink_Scope";
+								firemode="OPTRE_MA37:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer";
+									ammoLeft=32;
+								};
+							};
+							class binocular
+							{
+								name="OPTRE_Smartfinder";
+								class primaryMuzzleMag
+								{
+									name="Laserbatteries";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="OPTRE_UNSC_ODST_Uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SmokeShellBlue";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_elasticBandage";
+										count=10;
+									};
+									class Item1
+									{
+										name="ACE_splint";
+										count=4;
+									};
+									class Item2
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item3
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_quikclot";
+										count=10;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="OPCOS_UNSC_M52D_Armor_Rifleman_Blue";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="OPTRE_M9_Frag";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="OPTRE_32Rnd_762x51_Mag_Tracer";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item2
+									{
+										name="OPTRE_32Rnd_762x51_Mag";
+										count=3;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACRE_PRC148";
+										count=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="OPTRE_ANPRC_515";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACRE_PRC117F";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Balaclava_TI_blk_F";
+							hmd="OPTRE_NVG_UA_HURS_HUL";
+							headgear="OPCOS_UNSC_CH252D_Helmet_Blue";
+						};
+					};
+					id=10977;
+					type="B_Officer_Parade_F";
+					atlOffset=0.00030517578;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
 								};
 							};
 						};

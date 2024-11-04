@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1553;
+		nextID=1624;
 	};
 	class Camera
 	{
-		pos[]={5981.7119,57.306065,1558.3179};
-		dir[]={-0.68901795,-0.28921136,0.66454327};
-		up[]={-0.20816828,0.95726395,0.2007737};
-		aside[]={0.69420975,6.7811925e-08,0.71977746};
+		pos[]={7660.582,155.03413,6121.5488};
+		dir[]={0.18121514,-0.49802679,0.84801936};
+		up[]={0.10407472,0.86716187,0.48703086};
+		aside[]={0.97792232,-3.6990969e-08,-0.20897433};
 	};
 };
 binarizationWanted=0;
@@ -225,12 +225,9 @@ addons[]=
 	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
 	"A3_Characters_F",
 	"A3_Weapons_F",
-	"OPTRE_Equipment_CMA",
-	"OPTRE_UNSC_Units_Army",
-	"A3_Characters_F_Patrol",
-	"ace_explosives",
 	"A3_Characters_F_Exp",
 	"OPCOS_Uniforms_Army",
+	"OPTRE_UNSC_Units_Army",
 	"ace_medical_treatment",
 	"ace_realisticnames",
 	"acre_sys_prc343",
@@ -251,13 +248,6 @@ addons[]=
 	"OPTRE_Misc_Objects",
 	"OPTRE_UNSC_Units_Navy",
 	"ace_hearing",
-	"A3_Characters_F_AoW",
-	"Weap_melee_knife",
-	"APR_IMS_iconRework",
-	"A3_Characters_F_Globe_Headgear",
-	"adapterusSUSmellee",
-	"OPTRE_Weapons_Items",
-	"ace_parachute",
 	"A3_Soft_F_Enoch_Truck_01",
 	"OPTRE_UNSC_Structure_HoloObjects",
 	"A3_Structures_F_Enoch_Military_Camps",
@@ -268,7 +258,17 @@ addons[]=
 	"ace_refuel",
 	"OPTRE_Vehicles_M808B2",
 	"A3_Ui_F",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Modules_F_Curator_Curator",
+	"OPTRE_Equipment_CMA",
+	"A3_Characters_F_Patrol",
+	"ace_explosives",
+	"A3_Characters_F_AoW",
+	"Weap_melee_knife",
+	"APR_IMS_iconRework",
+	"A3_Characters_F_Globe_Headgear",
+	"adapterusSUSmellee",
+	"OPTRE_Weapons_Items",
+	"ace_parachute"
 };
 class AddonsMetaData
 {
@@ -796,168 +796,168 @@ class AddonsMetaData
 		};
 		class Item81
 		{
-			className="OPTRE_UNSC_Units";
-			name="OPTRE_Equipment_CMA";
-			author="Article 2 Studios";
-		};
-		class Item82
-		{
-			className="A3_Characters_F_Patrol";
-			name="Arma 3 Patrol - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item83
-		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item84
-		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item85
+		class Item82
 		{
 			className="OPCOS_Uniforms_Army";
 			name="OPCOS_Uniforms_Army";
 			author="Rev! + Spartanjackwar";
 		};
-		class Item86
+		class Item83
+		{
+			className="OPTRE_UNSC_Units";
+			name="OPTRE_UNSC_Units_Army";
+			author="Article 2 Studios";
+		};
+		class Item84
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item87
+		class Item85
 		{
 			className="acre_sys_prc343";
 			name="ACRE2 - AN/PRC-343";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item88
+		class Item86
 		{
 			className="OPTRE_UNSC_Units_NVGs";
 			name="OPTRE_UNSC_Units_NVGs";
 		};
-		class Item89
+		class Item87
 		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item90
+		class Item88
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item91
+		class Item89
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item92
+		class Item90
 		{
 			className="A3_Characters_F_Jets";
 			name="Arma 3 Jets - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item93
+		class Item91
 		{
 			className="OPTRE_Ins_Units";
 			name="OPTRE_Ins_Units_DME";
 			author="Article 2 Studios";
 		};
-		class Item94
+		class Item92
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item95
-		{
-			className="A3_Characters_F_AoW";
-			name="Arma 3 Art of War - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item96
-		{
-			className="Weap_melee_knife";
-			name="Weap_melee_knife";
-		};
-		class Item97
-		{
-			className="APR_IMS_iconRework";
-			name="APR_IMS_iconRework";
-			author="Apricot_ale";
-		};
-		class Item98
-		{
-			className="A3_expEden_characters";
-			name="O&T Expansion Eden - Characters";
-			author="O&T Expansion Eden";
-			url="https://steamcommunity.com/workshop/filedetails/?id=1923321700";
-		};
-		class Item99
-		{
-			className="adapterusSUSmellee";
-			name="adapterusSUSmellee";
-		};
-		class Item100
-		{
-			className="ace_parachute";
-			name="ACE3 - Parachute";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item101
+		class Item93
 		{
 			className="A3_Soft_F_Enoch";
 			name="Arma 3 Contact Platform - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item102
+		class Item94
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item103
+		class Item95
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item104
+		class Item96
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item105
+		class Item97
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item98
+		{
+			className="A3_Characters_F_Patrol";
+			name="Arma 3 Patrol - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item99
+		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item100
+		{
+			className="A3_Characters_F_AoW";
+			name="Arma 3 Art of War - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item101
+		{
+			className="Weap_melee_knife";
+			name="Weap_melee_knife";
+		};
+		class Item102
+		{
+			className="APR_IMS_iconRework";
+			name="APR_IMS_iconRework";
+			author="Apricot_ale";
+		};
+		class Item103
+		{
+			className="A3_expEden_characters";
+			name="O&T Expansion Eden - Characters";
+			author="O&T Expansion Eden";
+			url="https://steamcommunity.com/workshop/filedetails/?id=1923321700";
+		};
+		class Item104
+		{
+			className="adapterusSUSmellee";
+			name="adapterusSUSmellee";
+		};
+		class Item105
+		{
+			className="ace_parachute";
+			name="ACE3 - Parachute";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
 		};
 	};
 };
@@ -996,7 +996,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -1013,7 +1013,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -1066,7 +1066,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=12;
+		items=17;
 		class Item0
 		{
 			dataType="Layer";
@@ -15774,7 +15774,7 @@ class Mission
 									};
 									id=963;
 									type="OPTRE_nose";
-									atlOffset=117.29684;
+									atlOffset=87.191971;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -108824,7 +108824,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7692.2837,150.59689,6156.7251};
-										angles[]={0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									flags=1;
@@ -108842,7 +108842,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4165,150.82529,6156.8916};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -108860,7 +108860,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.3721,150.79535,6186.4712};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -108878,7 +108878,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4219,150.79282,6189.9028};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -108896,7 +108896,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4478,150.77808,6192.9429};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -108986,7 +108986,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.5562,150.79146,6209.002};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109004,7 +109004,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.5493,150.77094,6211.98};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109022,7 +109022,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.5361,150.76526,6215.4849};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109040,7 +109040,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.439,150.82683,6160.125};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109058,7 +109058,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.5342,150.73386,6218.5088};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109148,7 +109148,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.5278,150.70767,6235.3306};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109166,7 +109166,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.5552,150.72736,6238.3867};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109184,7 +109184,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.52,150.72984,6241.8252};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109202,7 +109202,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4917,150.73282,6244.793};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109238,7 +109238,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4624,150.82968,6163.7114};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109310,7 +109310,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2266,150.82306,6156.9214};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109328,7 +109328,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2217,150.82495,6159.9507};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109346,7 +109346,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2319,150.82819,6163.4277};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109364,7 +109364,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2212,150.82217,6166.3521};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109436,7 +109436,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4365,150.81171,6166.5903};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109472,7 +109472,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.1353,150.75879,6183.0718};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109490,7 +109490,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2368,150.76314,6186.2422};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109508,7 +109508,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.1919,150.77048,6189.7559};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109526,7 +109526,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2124,150.77487,6192.8403};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109616,7 +109616,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2417,150.72311,6208.9004};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109652,7 +109652,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2222,150.69843,6211.9482};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109670,7 +109670,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.1797,150.6848,6215.4922};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109688,7 +109688,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2031,150.6951,6218.5566};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109778,7 +109778,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2705,150.75119,6235.1118};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109796,7 +109796,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.2734,150.77417,6238.1655};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109814,7 +109814,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.3262,150.78178,6241.8481};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109850,7 +109850,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7679.3379,150.78534,6244.6787};
-										angles[]={-0,1.5707964,-0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									class Attributes
@@ -109976,7 +109976,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={7699.4355,150.79083,6183.3472};
-										angles[]={-0,4.712389,-0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									class Attributes
@@ -119043,2093 +119043,8 @@ class Mission
 							name="ODST NPCs";
 							class Entities
 							{
-								items=16;
+								items=11;
 								class Item0
-								{
-									dataType="Group";
-									side="West";
-									class Entities
-									{
-										items=9;
-										class Item0
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.82603,6129.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=7;
-											class Attributes
-											{
-												rank="SERGEANT";
-												init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
-												description="Section Commander@No.1 Section";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6221;
-											type="B_Soldier_SL_F";
-											atlOffset=0.00044250488;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male10ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.95999998;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item1
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80034,6131.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
-												description="Fireteam Leader";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6223;
-											type="B_Soldier_TL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item2
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80034,6133.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
-												description="Combat Lifesaver";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6224;
-											type="B_Patrol_Medic_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male04ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.04;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item3
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80034,6135.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Anti-Tank""]];";
-												description="AT Trooper";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6226;
-											type="B_soldier_AT_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.95999998;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item4
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80003,6137.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=1;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""AT-assistant"",""Rifleman""]];";
-												description="Assistant AT";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6227;
-											type="B_soldier_AAT_F";
-											atlOffset=21.801086;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male09ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.98000002;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item5
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80034,6139.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
-												description="Fireteam Leader";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6229;
-											type="B_Soldier_TL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item6
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80034,6141.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Engineer""]];";
-												description="Demoman";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6230;
-											type="B_engineer_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male02ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.01;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item7
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80034,6143.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Light-Machinegunner""]];";
-												description="Machinegunner";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6236;
-											type="B_soldier_M_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.01;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item8
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7663,148.80022,6145.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=1;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""LMG-assistant"",""Rifleman""]];";
-												description="Assistant MG";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6237;
-											type="B_soldier_AAR_F";
-											atlOffset=21.804565;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male07ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-									};
-									class Attributes
-									{
-									};
-									id=6222;
-									atlOffset=-133.2;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="groupID";
-											expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Blindside 4-1";
-												};
-											};
-										};
-										nAttributes=1;
-									};
-								};
-								class Item1
-								{
-									dataType="Group";
-									side="West";
-									class Entities
-									{
-										items=9;
-										class Item0
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.82559,6129.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=7;
-											class Attributes
-											{
-												rank="SERGEANT";
-												init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
-												description="Section Commander@No.2 Section";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6239;
-											type="B_Soldier_SL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male10ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.95999998;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item1
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80034,6131.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
-												description="Fireteam Leader";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6240;
-											type="B_Soldier_TL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item2
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80034,6133.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
-												description="Combat Lifesaver";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6241;
-											type="B_Patrol_Medic_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male04ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.04;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item3
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80034,6135.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Anti-Tank""]];";
-												description="AT Trooper";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6242;
-											type="B_soldier_AT_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.95999998;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item4
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80016,6137.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=1;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""AT-assistant"",""Rifleman""]];";
-												description="Assistant AT";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6243;
-											type="B_soldier_AAT_F";
-											atlOffset=21.801208;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male09ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.98000002;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item5
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80034,6139.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
-												description="Fireteam Leader";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6244;
-											type="B_Soldier_TL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item6
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80034,6141.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Engineer""]];";
-												description="Demoman";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6245;
-											type="B_engineer_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male02ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.01;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item7
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80034,6143.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Light-Machinegunner""]];";
-												description="Machinegunner";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6246;
-											type="B_soldier_M_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.01;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item8
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7666,148.80081,6145.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""LMG-assistant"",""Rifleman""]];";
-												description="Assistant MG";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6247;
-											type="B_soldier_AAR_F";
-											atlOffset=0.00047302246;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male07ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-									};
-									class Attributes
-									{
-									};
-									id=6238;
-									atlOffset=-133.2;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="groupID";
-											expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Blindside 4-2";
-												};
-											};
-										};
-										nAttributes=1;
-									};
-								};
-								class Item2
-								{
-									dataType="Group";
-									side="West";
-									class Entities
-									{
-										items=9;
-										class Item0
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7667.6538,148.82584,6129.001};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=7;
-											class Attributes
-											{
-												rank="SERGEANT";
-												init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
-												description="Section Commander@No.3 Section";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6259;
-											type="B_Soldier_SL_F";
-											atlOffset=0.00024414063;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male10ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.95999998;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item1
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7668.0562,148.80034,6131.0571};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
-												description="Fireteam Leader";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6260;
-											type="B_Soldier_TL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item2
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7668.5728,148.80034,6133.0132};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
-												description="Combat Lifesaver";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6261;
-											type="B_Patrol_Medic_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male04ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.04;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item3
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7669,148.80078,6135.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Sniper"",""Rifleman""]];";
-												description="Marksman";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6262;
-											type="B_soldier_AT_F";
-											atlOffset=0.00044250488;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.95999998;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item4
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7669,148.80066,6137.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Scout"",""Rifleman""]];";
-												description="Scout";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6263;
-											type="B_soldier_AAT_F";
-											atlOffset=0.00032043457;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male09ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.98000002;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item5
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7669,148.80034,6139.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
-												description="Fireteam Leader";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6264;
-											type="B_Soldier_TL_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item6
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7669,148.80034,6141.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Engineer""]];";
-												description="Demoman";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6265;
-											type="B_engineer_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male02ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.01;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item7
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7669,148.8008,6143.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""Medium-Machinegunner""]];";
-												description="Medium Machinegunner";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6266;
-											type="B_soldier_M_F";
-											atlOffset=0.00045776367;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.01;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item8
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7669,148.80067,6145.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												init="this setVariable [""CVO_A_Roles"",[""MMG-assistant"",""Rifleman""]];";
-												description="Assistant MMG";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6267;
-											type="B_soldier_AAR_F";
-											atlOffset=0.00033569336;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male07ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-									};
-									class Attributes
-									{
-									};
-									id=6258;
-									atlOffset=-133.2;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="groupID";
-											expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Blindside 4-3";
-												};
-											};
-										};
-										nAttributes=1;
-									};
-								};
-								class Item3
-								{
-									dataType="Group";
-									side="West";
-									class Entities
-									{
-										items=4;
-										class Item0
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7660,148.82571,6129.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=7;
-											class Attributes
-											{
-												rank="CAPTAIN";
-												init="this setVariable [""CVO_A_Roles"",[""Officer""]];";
-												description="Platoon Commander@No.4 Platoon, Blindside Company";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6211;
-											type="B_officer_F";
-											atlOffset=0.00012207031;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male01ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.03;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item1
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7660,148.80029,6131.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="SERGEANT";
-												init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
-												description="Fireteam Lead";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6212;
-											type="B_Soldier_SL_F";
-											atlOffset=0.024810791;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male10ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.99000001;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item2
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7660,148.80034,6133.0498};
-												angles[]={0,3.1415925,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="SERGEANT";
-												init="this setVariable [""CVO_A_Roles"",[""RTO-JTAC""]];";
-												description="Radio-Telephone Operator";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6214;
-											type="B_soldier_UAV_F";
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male03ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.02;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-										class Item3
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7660,148.80081,6135.0498};
-												angles[]={0,3.1415927,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CORPORAL";
-												init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
-												description="Platoon Medic";
-												isPlayable=1;
-												class Inventory
-												{
-													class uniform
-													{
-														typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
-														isBackpack=0;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="OPTRE_CMA_Beret";
-												};
-											};
-											id=6213;
-											type="B_medic_F";
-											atlOffset=0.00047302246;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="ace_isMedic";
-													expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=2;
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male01ENG";
-														};
-													};
-												};
-												class Attribute2
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.99000001;
-														};
-													};
-												};
-												nAttributes=3;
-											};
-										};
-									};
-									class Attributes
-									{
-									};
-									id=6210;
-									atlOffset=-133.2;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="groupID";
-											expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Blindside 4-6";
-												};
-											};
-										};
-										nAttributes=1;
-									};
-								};
-								class Item4
 								{
 									dataType="Group";
 									side="West";
@@ -121314,7 +119229,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item5
+								class Item1
 								{
 									dataType="Group";
 									side="West";
@@ -121497,7 +119412,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item6
+								class Item2
 								{
 									dataType="Group";
 									side="West";
@@ -121707,7 +119622,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item7
+								class Item3
 								{
 									dataType="Group";
 									side="West";
@@ -121922,7 +119837,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item8
+								class Item4
 								{
 									dataType="Group";
 									side="West";
@@ -122071,7 +119986,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item9
+								class Item5
 								{
 									dataType="Group";
 									side="West";
@@ -122255,7 +120170,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item10
+								class Item6
 								{
 									dataType="Group";
 									side="West";
@@ -122430,7 +120345,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item11
+								class Item7
 								{
 									dataType="Group";
 									side="West";
@@ -122567,7 +120482,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item12
+								class Item8
 								{
 									dataType="Group";
 									side="West";
@@ -122684,7 +120599,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item13
+								class Item9
 								{
 									dataType="Group";
 									side="West";
@@ -122801,7 +120716,7 @@ class Mission
 										nAttributes=1;
 									};
 								};
-								class Item14
+								class Item10
 								{
 									dataType="Group";
 									side="West";
@@ -122860,14 +120775,14 @@ class Mission
 												};
 												class Attribute1
 												{
-													property="face";
-													expression="_this setface _value;";
+													property="enableStamina";
+													expression="_this enablestamina _value;";
 													class Value
 													{
 														class data
 														{
-															singleType="STRING";
-															value="AsianHead_A3_05";
+															singleType="BOOL";
+															value=0;
 														};
 													};
 												};
@@ -122886,14 +120801,14 @@ class Mission
 												};
 												class Attribute3
 												{
-													property="enableStamina";
-													expression="_this enablestamina _value;";
+													property="face";
+													expression="_this setface _value;";
 													class Value
 													{
 														class data
 														{
-															singleType="BOOL";
-															value=0;
+															singleType="STRING";
+															value="AsianHead_A3_05";
 														};
 													};
 												};
@@ -122921,288 +120836,6 @@ class Mission
 												{
 													singleType="STRING";
 													value="Rangemaster";
-												};
-											};
-										};
-										nAttributes=1;
-									};
-								};
-								class Item15
-								{
-									dataType="Group";
-									side="West";
-									class Entities
-									{
-										items=2;
-										class Item0
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7688.458,148.82773,6125.8916};
-												angles[]={0,4.4400306,0};
-											};
-											side="West";
-											flags=7;
-											class Attributes
-											{
-												rank="MAJOR";
-												init="this setVariable [""CVO_A_Roles"",[""Officer"",""Rifleman""]];";
-												name="Ketzl";
-												description="Battalion Commander (Zeus)@10th Battalion, 105th Division";
-												isPlayer=1;
-												class Inventory
-												{
-													class primaryWeapon
-													{
-														name="OPTRE_MA37";
-														optics="OPTRE_MA37_Smartlink_Scope";
-														firemode="OPTRE_MA37:FullAuto";
-														class primaryMuzzleMag
-														{
-															name="OPTRE_32Rnd_762x51_Mag_Tracer";
-															ammoLeft=32;
-														};
-													};
-													class handgun
-													{
-														name="Knife_kukri";
-													};
-													class uniform
-													{
-														typeName="OPTRE_UNSC_ODST_Uniform";
-														isBackpack=0;
-														class MagazineCargo
-														{
-															items=2;
-															class Item0
-															{
-																name="ACE_painkillers";
-																count=1;
-																ammoLeft=10;
-															};
-															class Item1
-															{
-																name="SmokeShellBlue";
-																count=2;
-																ammoLeft=1;
-															};
-														};
-														class ItemCargo
-														{
-															items=5;
-															class Item0
-															{
-																name="ACE_elasticBandage";
-																count=10;
-															};
-															class Item1
-															{
-																name="ACE_splint";
-																count=4;
-															};
-															class Item2
-															{
-																name="ACE_tourniquet";
-																count=2;
-															};
-															class Item3
-															{
-																name="ACE_morphine";
-																count=2;
-															};
-															class Item4
-															{
-																name="ACE_quikclot";
-																count=10;
-															};
-														};
-													};
-													class vest
-													{
-														typeName="OPCOS_UNSC_M52D_Armor_Sniper_Blue";
-														isBackpack=0;
-													};
-													class backpack
-													{
-														typeName="OPTRE_ANPRC_515";
-														isBackpack=1;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ItemWatch";
-													gps="ItemGPS";
-													headgear="H_Watchcap_sgg";
-												};
-											};
-											id=6200;
-											type="B_Officer_Parade_Veteran_F";
-											atlOffset=0.10527039;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male05ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=1.04;
-														};
-													};
-												};
-												class Attribute2
-												{
-													property="face";
-													expression="_this setface _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="WhiteHead_03";
-														};
-													};
-												};
-												nAttributes=3;
-											};
-										};
-										class Item1
-										{
-											dataType="Object";
-											class PositionInfo
-											{
-												position[]={7689.4399,148.82793,6124.6768};
-												angles[]={0,4.4657917,0};
-											};
-											side="West";
-											flags=5;
-											class Attributes
-											{
-												rank="CAPTAIN";
-												init="this setVariable [""CVO_A_Roles"",[""Officer"",""Rifleman""]];";
-												name="Delta";
-												description="ONI Attache (Zeus)";
-												isPlayable=1;
-												class Inventory
-												{
-													class primaryWeapon
-													{
-														name="OPTRE_M12_SOC";
-														optics="OPTRE_M73_SmartLink";
-														muzzle="OPTRE_M12_Suppressor";
-														flashlight="OPTRE_M12_Laser";
-														firemode="OPTRE_M12_SOC:FullAuto";
-														class primaryMuzzleMag
-														{
-															name="OPTRE_64Rnd_57x31_Mag";
-															ammoLeft=64;
-														};
-													};
-													class handgun
-													{
-														name="UNSC_Knife_reversed";
-													};
-													class binocular
-													{
-														name="OPTRE_Smartfinder";
-														class primaryMuzzleMag
-														{
-															name="Laserbatteries";
-															ammoLeft=1;
-														};
-													};
-													class uniform
-													{
-														typeName="OPTRE_DME_Uniform";
-														isBackpack=0;
-													};
-													class vest
-													{
-														typeName="OPTRE_UNSC_M52D_Armor_Light";
-														isBackpack=0;
-													};
-													class backpack
-													{
-														typeName="OPTRE_S12_SOLA_Jetpack";
-														isBackpack=1;
-													};
-													map="ItemMap";
-													compass="ItemCompass";
-													watch="ACE_Altimeter";
-													gps="ItemGPS";
-													goggles="G_Balaclava_TI_blk_F";
-													hmd="OPTRE_NVG_HURS";
-													headgear="OPTRE_UNSC_Recon_Helmet";
-												};
-											};
-											id=6201;
-											type="B_Officer_Parade_F";
-											atlOffset=3.0517578e-05;
-											class CustomAttributes
-											{
-												class Attribute0
-												{
-													property="speaker";
-													expression="_this setspeaker _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="STRING";
-															value="Male09ENG";
-														};
-													};
-												};
-												class Attribute1
-												{
-													property="pitch";
-													expression="_this setpitch _value;";
-													class Value
-													{
-														class data
-														{
-															singleType="SCALAR";
-															value=0.98000002;
-														};
-													};
-												};
-												nAttributes=2;
-											};
-										};
-									};
-									class Attributes
-									{
-									};
-									id=6199;
-									atlOffset=-133.2;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="groupID";
-											expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Sunray 1-0";
 												};
 											};
 										};
@@ -135691,6 +133324,7 @@ class Mission
 							};
 							id=6628;
 							type="OPTRE_M12_FAV";
+							atlOffset=-0.10299683;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -135782,6 +133416,7 @@ class Mission
 							};
 							id=6629;
 							type="OPTRE_M12_FAV";
+							atlOffset=-0.074157715;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -135875,6 +133510,7 @@ class Mission
 							};
 							id=6633;
 							type="OPTRE_M493_APC";
+							atlOffset=0.15327454;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -135966,6 +133602,7 @@ class Mission
 							};
 							id=6577;
 							type="OPTRE_M808BM_UNSC";
+							atlOffset=-0.067733765;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -136137,6 +133774,7 @@ class Mission
 							};
 							id=6578;
 							type="OPTRE_M808BM_UNSC";
+							atlOffset=-0.059188843;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -136311,6 +133949,7 @@ class Mission
 							};
 							id=6590;
 							type="OPTRE_M808B2";
+							atlOffset=-0.030731201;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -136434,6 +134073,7 @@ class Mission
 							};
 							id=6585;
 							type="OPTRE_M808R_Engineer_UNSC";
+							atlOffset=-0.028289795;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -136654,7 +134294,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1978.6337,214.36443,2861.4517};
-								angles[]={-0,5.2359881,0};
+								angles[]={0,5.2359881,0};
 							};
 							side="Empty";
 							flags=4;
@@ -136764,7 +134404,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1981.3721,212.89085,2748.9934};
-								angles[]={-0,0.52359885,0};
+								angles[]={0,0.52359885,0};
 							};
 							side="Empty";
 							flags=4;
@@ -136870,7 +134510,7 @@ class Mission
 						};
 					};
 					id=6646;
-					atlOffset=6.6775208;
+					atlOffset=6.6637268;
 				};
 				class Item4
 				{
@@ -137100,7 +134740,7 @@ class Mission
 						};
 					};
 					id=6942;
-					atlOffset=0.71300125;
+					atlOffset=0.71271133;
 				};
 				class Item5
 				{
@@ -138838,7 +136478,7 @@ class Mission
 				};
 			};
 			id=5205;
-			atlOffset=41.848213;
+			atlOffset=41.847652;
 		};
 		class Item7
 		{
@@ -140869,6 +138509,2372 @@ class Mission
 			};
 			id=4139;
 			atlOffset=0.49905872;
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=9;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.82603,6129.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
+						description="Section Commander@No.1 Section";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6221;
+					type="B_Soldier_SL_F";
+					atlOffset=0.00044250488;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80034,6131.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
+						description="Fireteam Leader";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6223;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80034,6133.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
+						description="Combat Lifesaver";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6224;
+					type="B_Patrol_Medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80034,6135.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Anti-Tank""]];";
+						description="AT Trooper";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6226;
+					type="B_soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80003,6137.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""AT-assistant"",""Rifleman""]];";
+						description="Assistant AT";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6227;
+					type="B_soldier_AAT_F";
+					atlOffset=21.801086;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80034,6139.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
+						description="Fireteam Leader";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6229;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80034,6141.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Engineer""]];";
+						description="Demoman";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6230;
+					type="B_engineer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80034,6143.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Light-Machinegunner""]];";
+						description="Machinegunner";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6236;
+					type="B_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7663,148.80022,6145.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""LMG-assistant"",""Rifleman""]];";
+						description="Assistant MG";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6237;
+					type="B_soldier_AAR_F";
+					atlOffset=21.804565;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6222;
+			atlOffset=0.00044250488;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Blindside 1-1";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item13
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=9;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.82559,6129.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
+						description="Section Commander@No.2 Section";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6239;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80034,6131.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
+						description="Fireteam Leader";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6240;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80034,6133.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
+						description="Combat Lifesaver";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6241;
+					type="B_Patrol_Medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80034,6135.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Anti-Tank""]];";
+						description="AT Trooper";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6242;
+					type="B_soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80016,6137.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""AT-assistant"",""Rifleman""]];";
+						description="Assistant AT";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6243;
+					type="B_soldier_AAT_F";
+					atlOffset=21.801208;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80034,6139.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
+						description="Fireteam Leader";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6244;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80034,6141.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Engineer""]];";
+						description="Demoman";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6245;
+					type="B_engineer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80034,6143.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Light-Machinegunner""]];";
+						description="Machinegunner";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6246;
+					type="B_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7666,148.80081,6145.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""LMG-assistant"",""Rifleman""]];";
+						description="Assistant MG";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6247;
+					type="B_soldier_AAR_F";
+					atlOffset=0.00047302246;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6238;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Blindside 1-2";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=9;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7667.6538,148.82584,6129.001};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
+						description="Section Commander@No.3 Section";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6259;
+					type="B_Soldier_SL_F";
+					atlOffset=0.00024414063;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7668.0562,148.80034,6131.0571};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
+						description="Fireteam Leader";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6260;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7668.5728,148.80034,6133.0132};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
+						description="Combat Lifesaver";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6261;
+					type="B_Patrol_Medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7669,148.80078,6135.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Sniper"",""Rifleman""]];";
+						description="Marksman";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6262;
+					type="B_soldier_AT_F";
+					atlOffset=0.00044250488;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7669,148.80066,6137.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Scout"",""Rifleman""]];";
+						description="Scout";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6263;
+					type="B_soldier_AAT_F";
+					atlOffset=0.00032043457;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7669,148.80034,6139.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Team-Leader""]];";
+						description="Fireteam Leader";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6264;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7669,148.80034,6141.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Engineer""]];";
+						description="Demoman";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6265;
+					type="B_engineer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7669,148.8008,6143.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""Medium-Machinegunner""]];";
+						description="Medium Machinegunner";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6266;
+					type="B_soldier_M_F";
+					atlOffset=0.00045776367;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7669,148.80067,6145.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""CVO_A_Roles"",[""MMG-assistant"",""Rifleman""]];";
+						description="Assistant MMG";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6267;
+					type="B_soldier_AAR_F";
+					atlOffset=0.00033569336;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6258;
+			atlOffset=0.00024414063;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Blindside 1-3";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7660,148.82571,6129.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="CAPTAIN";
+						init="this setVariable [""CVO_A_Roles"",[""Officer""]];";
+						description="Platoon Commander@No.4 Platoon, Blindside Company";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6211;
+					type="B_officer_F";
+					atlOffset=0.00012207031;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7660,148.80029,6131.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setVariable [""CVO_A_Roles"",[""Squad-Leader""]];";
+						description="Fireteam Lead";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6212;
+					type="B_Soldier_SL_F";
+					atlOffset=0.024810791;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7660,148.80034,6133.0498};
+						angles[]={0,3.1415925,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setVariable [""CVO_A_Roles"",[""RTO-JTAC""]];";
+						description="Radio-Telephone Operator";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6214;
+					type="B_soldier_UAV_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7660,148.80081,6135.0498};
+						angles[]={0,3.1415927,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="this setVariable [""CVO_A_Roles"",[""Medic""]];";
+						description="Platoon Medic";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="OPTRE_UNSC_Army_Uniform_T2_BLK_SlimLeg";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="OPTRE_CMA_Beret";
+						};
+					};
+					id=6213;
+					type="B_medic_F";
+					atlOffset=0.00047302246;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6210;
+			atlOffset=0.00012207031;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Blindside 1-6";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7688.458,148.82773,6125.8916};
+						angles[]={0,4.4400306,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="MAJOR";
+						init="this setVariable [""CVO_A_Roles"",[""Officer"",""Rifleman""]];";
+						name="Ketzl";
+						description="Battalion Commander (Zeus)@10th Battalion, 105th Division";
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_MA37";
+								optics="OPTRE_MA37_Smartlink_Scope";
+								firemode="OPTRE_MA37:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_32Rnd_762x51_Mag_Tracer";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="Knife_kukri";
+							};
+							class uniform
+							{
+								typeName="OPTRE_UNSC_ODST_Uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="ACE_painkillers";
+										count=1;
+										ammoLeft=10;
+									};
+									class Item1
+									{
+										name="SmokeShellBlue";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_elasticBandage";
+										count=10;
+									};
+									class Item1
+									{
+										name="ACE_splint";
+										count=4;
+									};
+									class Item2
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item3
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_quikclot";
+										count=10;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="OPCOS_UNSC_M52D_Armor_Sniper_Blue";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="OPTRE_ANPRC_515";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+							headgear="H_Watchcap_sgg";
+						};
+					};
+					id=6200;
+					type="B_Officer_Parade_Veteran_F";
+					atlOffset=0.10527039;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="WhiteHead_03";
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7689.4399,148.82793,6124.6768};
+						angles[]={0,4.4657917,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CAPTAIN";
+						init="this setVariable [""CVO_A_Roles"",[""Officer"",""Rifleman""]];";
+						name="Delta";
+						description="ONI Attache (Zeus)";
+						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="OPTRE_M12_SOC";
+								optics="OPTRE_M73_SmartLink";
+								muzzle="OPTRE_M12_Suppressor";
+								flashlight="OPTRE_M12_Laser";
+								firemode="OPTRE_M12_SOC:FullAuto";
+								class primaryMuzzleMag
+								{
+									name="OPTRE_64Rnd_57x31_Mag";
+									ammoLeft=64;
+								};
+							};
+							class handgun
+							{
+								name="UNSC_Knife_reversed";
+							};
+							class binocular
+							{
+								name="OPTRE_Smartfinder";
+								class primaryMuzzleMag
+								{
+									name="Laserbatteries";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="OPTRE_DME_Uniform";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="OPTRE_UNSC_M52D_Armor_Light";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="OPTRE_S12_SOLA_Jetpack";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ACE_Altimeter";
+							gps="ItemGPS";
+							goggles="G_Balaclava_TI_blk_F";
+							hmd="OPTRE_NVG_HURS";
+							headgear="OPTRE_UNSC_Recon_Helmet";
+						};
+					};
+					id=6201;
+					type="B_Officer_Parade_F";
+					atlOffset=3.0517578e-05;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6199;
+			atlOffset=0.10527039;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Sunray 1-0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections

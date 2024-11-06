@@ -1,3 +1,4 @@
+["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;	// initialises the player/client side Dynamic Groups framework and registers the player group
 
 // CREATING TEMPORARY FUNCTION
 if (isNil "CVO_COMMON_FNC_holdAction_TP") then {

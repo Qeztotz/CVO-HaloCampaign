@@ -1,0 +1,1 @@
+["Initialize", [true]] call BIS_fnc_dynamicGroups;	// initialises the Dynamic Groups framework and groups led by a player at mission start will be registered

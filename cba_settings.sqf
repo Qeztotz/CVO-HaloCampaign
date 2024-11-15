@@ -13,6 +13,15 @@ force grad_trenches_functions_giantEnvelopeDigTime = 180;
 force grad_trenches_functions_allowLongEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
 
+// ace armor modifier test
+force armor_modifier_ace_main_hitPointMultiplierSetting_AI_chest = "[1,0, 0]";
+force armor_modifier_ace_main_hitPointMultiplierSetting_AI_head = "[1, 0, 0]";
+force armor_modifier_ace_main_hitPointMultiplierSetting_AI_limb = "[1, 0, 0]";
+force armor_modifier_ace_main_hitPointMultiplierSetting_Player_chest = "[1, 13.5, 13.5]";
+force armor_modifier_ace_main_hitPointMultiplierSetting_Player_head = "[1, 0, 0]";
+force armor_modifier_ace_main_hitPointMultiplierSetting_Player_limb = "[1, 0, 0]";
+
+
 //force grad_trenches_functions_LongEnvelopeDigTime = 200;
 //force grad_trenches_functions_vehicleEnvelopeDigTime = 240;
 

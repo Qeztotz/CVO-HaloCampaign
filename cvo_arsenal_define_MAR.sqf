@@ -74,6 +74,20 @@ CVO_A_BASE = [];
 // ###### Baseline Equipment ###### 
 // The Following can be mostly left as default
 
+// Immersion Cigs
+CVO_A_BASE append [
+	"cigs_lighter",
+	"cigs_matches",
+	"cigs_morley_cigpack",
+	"cigs_eckstein_cigpack",
+	"cigs_craven_cigpack",
+	"cigs_lucky_strike_cigpack",
+	"cigs_cigars_cigar0",
+	"cigs_cigars_cigar0_nv",
+	"cigs_pops_poppack",
+	"cigs_crayons_crayonpack"
+];
+
 
 // Medical 
 CVO_A_BASE append [
@@ -96,12 +110,6 @@ CVO_A_BASE append [
 // Tools & Equipment
 
 CVO_A_BASE append [
-	"immersion_pops_poppack",
-	"murshun_cigs_cigpack",
-	"murshun_cigs_lighter",
-	"murshun_cigs_matches",
-	"immersion_cigs_cigar0",
-	"immersion_cigs_cigar0_nv",
 
 	"ACE_MapTools",
 	"ace_marker_flags_yellow",
@@ -199,18 +207,11 @@ CVO_A_BASE append [
 	"OPTRE_Glasses_Visor_Blue",
 	"G_Spectacles",
 	"G_Bandanna_tan",
-	"OPTRE_EyePiece",
-	//cigs and lollipop
-	"immersion_pops_pop0",
-	"murshun_cigs_cig0",
-	"immersion_cigs_cigar0"
+	"OPTRE_EyePiece"
 	];
 
 // NVGs
 CVO_A_BASE append [	
-	//cigs and lollipop
-	"immersion_cigs_cigar0_nv",
-	"murshun_cigs_cig0_nv",
 	//Neural Implant
 	"OPTRE_NVG",
 	//Helmet Mods
@@ -609,3 +610,5 @@ CVO_A_HASH_PlayerKit = createHashMapFromArray [
 
 
 diag_log ("[CVO] [Arsenal_Define] - completed");
+
+

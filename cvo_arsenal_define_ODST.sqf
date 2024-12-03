@@ -74,6 +74,21 @@ CVO_A_BASE = [];
 // ###### Baseline Equipment ###### 
 // The Following can be mostly left as default
 
+// Immersion Cigs
+CVO_A_BASE append [
+	"cigs_lighter",
+	"cigs_matches",
+	"cigs_morley_cigpack",
+	"cigs_eckstein_cigpack",
+	"cigs_craven_cigpack",
+	"cigs_lucky_strike_cigpack",
+	"cigs_cigars_cigar0",
+	"cigs_cigars_cigar0_nv",
+	"cigs_pops_poppack",
+	"cigs_crayons_crayonpack"
+];
+
+
 // Medical 
 CVO_A_BASE append [
 	"ACE_packingBandage",
@@ -96,13 +111,6 @@ CVO_A_BASE append [
 // Tools & Equipment
 
 CVO_A_BASE append [
-	"immersion_pops_poppack",
-	"murshun_cigs_cigpack",
-	"murshun_cigs_lighter",
-	"murshun_cigs_matches",
-	"immersion_cigs_cigar0",
-	"immersion_cigs_cigar0_nv",
-
 	"ACE_MapTools",
 	"ace_marker_flags_yellow",
 	"ace_marker_flags_red",

@@ -75,18 +75,8 @@ CVO_A_BASE = [];
 // The Following can be mostly left as default
 
 // Immersion Cigs
-CVO_A_BASE append [
-	"cigs_lighter",
-	"cigs_matches",
-	"cigs_morley_cigpack",
-	"cigs_eckstein_cigpack",
-	"cigs_craven_cigpack",
-	"cigs_lucky_strike_cigpack",
-	"cigs_cigars_cigar0",
-	"cigs_cigars_cigar0_nv",
-	"cigs_pops_poppack",
-	"cigs_crayons_crayonpack"
-];
+CVO_A_BASE append call cigs_core_fnc_getAllItems;
+
 
 
 // Medical 

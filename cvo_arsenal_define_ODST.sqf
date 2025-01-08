@@ -9,10 +9,10 @@ It is seperated in 3 Parts
 1. BASE KIT - This is Available for Everyone
 ##################
 
-Variable Name: CVO_A_BASE = [];
+Variable Name: cvo_arsenal_base = [];
 
 For easier reading it is suggested to compartmentalise
-and append the individual Groups to CVO_A_BASE
+and append the individual Groups to cvo_arsenal_base
 
 
 
@@ -69,7 +69,7 @@ if (!hasInterface) exitWith {};
 // ###### DEFINE BASE KIT HERE - AVAILABLE FOR EVERYONE
 // #####################################################
 
-CVO_A_BASE = [];
+cvo_arsenal_base = [];
 
 // ###### Baseline Equipment ###### 
 // The Following can be mostly left as default
@@ -78,7 +78,7 @@ CVO_A_BASE = [];
 // How to add Equipment if a certain Addon is Loaded - here, GreenMag
 if (isClass (configFile >> "CfgPatches" >> "greenmag_main")) then {
 
-		CVO_A_BASE append [
+		cvo_arsenal_base append [
 			//"greenmag_ammo_556x45_basic_60Rnd",
 			//"greenmag_ammo_556x45_basic_30Rnd",
 
@@ -107,7 +107,7 @@ if (isClass (configFile >> "CfgPatches" >> "greenmag_main")) then {
 
 
 // Medical 
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"ACE_packingBandage",
 	"ACE_elasticBandage",
 	"ACE_fieldDressing",
@@ -135,9 +135,9 @@ private _rations = [
 	"ACE_MRE_MeatballsPasta",
 	"ACE_MRE_SteakVegetables"
 ];
-//CVO_A_BASE append _rations;
+//cvo_arsenal_base append _rations;
 
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"immersion_pops_poppack",
 	"murshun_cigs_cigpack",
 	"murshun_cigs_lighter",
@@ -176,26 +176,26 @@ CVO_A_BASE append [
 	];
 
 // Binoculars
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"OPTRE_Binoculars",
 	"Binocular"
 	];
 
 // Radios
-CVO_A_BASE append  ["ACRE_PRC343"];
+cvo_arsenal_base append  ["ACRE_PRC343"];
 
 // ###### Wearables ###### 
 
 // ### ODST ###
 
 // Uniforms 
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"OPTRE_UNSC_Army_Uniform_T2_BLK",
 	"OPTRE_UNSC_ODST_Uniform"
 	];
 
 // Vests
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"OPCOS_UNSC_M52D_Armor_Blue",
 	"OPCOS_UNSC_M52D_Armor_Demolitions_Blue",
 	"OPCOS_UNSC_M52D_Armor_Light_Blue",
@@ -206,7 +206,7 @@ CVO_A_BASE append [
 ];
 
 // Backpacks
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"CVO_Kitbag_blk",
 	"CVO_LegStrapBag_black",
 	"OPTRE_ILCS_Rucksack_Black",
@@ -214,7 +214,7 @@ CVO_A_BASE append [
 	];
 
 // Headgear
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	"OPCOS_UNSC_CH252D_Helmet_Blue",
 	"OPTRE_UNSC_Cap_ODST",
 	"OPTRE_CMA_Beret",
@@ -223,7 +223,7 @@ CVO_A_BASE append [
 	];
 
 // Facewear
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	//Balaclavas
 	"G_Balaclava_blk",
 	"G_Balaclava_TI_blk_F",
@@ -238,7 +238,7 @@ CVO_A_BASE append [
 	];
 
 // NVGs
-CVO_A_BASE append [	
+cvo_arsenal_base append [	
 	//cigs and lollipop
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
@@ -274,7 +274,7 @@ CVO_A_BASE append [
 // ###### WEAPONS - MAIN ###### 
 
 // Primary
-CVO_A_BASE append  [
+cvo_arsenal_base append  [
 	// Assault Rifle
 	"OPTRE_MA37",	
 	//32rnd magazines
@@ -298,7 +298,7 @@ CVO_A_BASE append  [
 	];
 
 // Secondary
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	//pistol
 	"OPTRE_M6C",
 	//12rnd magazines
@@ -314,7 +314,7 @@ CVO_A_BASE append [
 	];
 
 // Handgrenades and Throwables
-CVO_A_BASE append   [
+cvo_arsenal_base append   [
 
 	"OPTRE_M9_Frag",
 	"SmokeShell",
@@ -340,7 +340,7 @@ CVO_A_BASE append   [
 	];
 
 // Explosives
-CVO_A_BASE append [
+cvo_arsenal_base append [
 	
 	];
 
@@ -361,7 +361,7 @@ CVO_A_BASE append [
 // #####################################################
 
 
-CVO_A_HASH_RoleKit = createHashMapFromArray [
+cvo_arsenal_roleKit = createHashMapFromArray [
 	["Medic", [[
 		"ACE_adenosine",
 		"ACE_epinephrine",
@@ -686,7 +686,7 @@ CVO_A_HASH_RoleKit = createHashMapFromArray [
 // Formatting Template: [  "STEAM64",	["PlayerName", "["ARRAY OF CLASSNAMES"],{"Optional CODEBLOCK"}  ]  ]
 
 
-CVO_A_HASH_PlayerKit = createHashMapFromArray [
+cvo_arsenal_playerKit = createHashMapFromArray [
 	["_SP_PLAYER_", 		["Editor Debug", 	["ACE_Banana"],		{systemChat "CVO_A_Playerkit test Successful - ACE_Sandbag_empty Given"; 	["ACE_Sandbag_empty"]}		]	],
 	["76561198071877982", 	["Ketzl", 			["H_Watchcap_sgg", "ACE_SpraypaintBlack"],	{[]}	]],
 	["76561198023521982", 	["sld_Delta", 		["OPTRE_M12_SOC","OPTRE_M12_Suppressor","OPTRE_M73_SmartLink","OPTRE_64Rnd_57x31_Mag","UNSC_Knife_reversed","OPTRE_DME_Uniform","OPTRE_UNSC_M52D_Armor_Jedi","OPTRE_S12_SOLA_Jetpack","ACE_Altimeter","OPTRE_NVG_HURS","OPTRE_UNSC_Recon_Helmet"],	{[]}	]]

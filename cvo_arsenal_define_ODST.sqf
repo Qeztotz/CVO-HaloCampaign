@@ -190,7 +190,7 @@ cvo_arsenal_base append  ["ACRE_PRC343"];
 
 // Uniforms 
 cvo_arsenal_base append [
-	"OPTRE_UNSC_Army_Uniform_T2_BLK",
+	"OPTRE_UNSC_Army_Uniform_T_URB_SlimLeg",
 	"OPTRE_UNSC_ODST_Uniform"
 	];
 

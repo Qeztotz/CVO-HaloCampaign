@@ -52,7 +52,7 @@ diag_log ("[CVO] [Arsenal_Define] - start");
 // ######  Define the Editor Layername here
 // #####################################################
 
-#define EDITOR_LAYER_NAME "CVO_Arsenal_Boxes"
+#define EDITOR_LAYER_NAME "CVO_Arsenal"
 
 // #####################################################
 // ###### CODE - DONT CHANGE

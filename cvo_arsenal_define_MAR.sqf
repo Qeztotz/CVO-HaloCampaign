@@ -52,7 +52,7 @@ diag_log ("[CVO] [Arsenal_Define] - start");
 // ######  Define the Editor Layername here
 // #####################################################
 
-#define EDITOR_LAYER_NAME "CVO_Arsenal_Boxes"
+#define EDITOR_LAYER_NAME "CVO_Arsenal"
 
 // #####################################################
 // ###### CODE - DONT CHANGE
@@ -406,6 +406,11 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		//100 rnd belts
 		"OPTRE_100Rnd_95x40_Box",
 		"OPTRE_100Rnd_95x40_Box_Tracer",
+		//MA5B
+		"OPTRE_MA5B",
+		"OPTRE_MA5_SmartLink",
+		"OPTRE_60Rnd_762x51_Mag",
+		"OPTRE_60Rnd_762x51_Mag_Tracer"
 		], 
 	{}]],
 	["Medium-Machinegunner", [[
@@ -414,13 +419,15 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"bipod_01_F_blk",
 		//100 rnd belts
 		"OPTRE_100Rnd_762x51_Box",
-		"OPTRE_100Rnd_762x51_Box_Tracer",
+		"OPTRE_100Rnd_762x51_Box_Tracer"
 		], 
 	{}]],
 	["LMG-assistant", [[
 		//100 rnd belts
 		"OPTRE_100Rnd_95x40_Box",
-		"OPTRE_100Rnd_95x40_Box_Tracer"
+		"OPTRE_100Rnd_95x40_Box_Tracer",
+		"OPTRE_60Rnd_762x51_Mag",
+		"OPTRE_60Rnd_762x51_Mag_Tracer"
 		], 
 	{}]],
 	["MMG-assistant", [[
@@ -449,7 +456,7 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 	{}]],
 	["Rifleman", [[
 		//Scope
-		"OPTRE_BR55HB_Scope_Grey",
+		"OPTRE_BR55HB_Scope_Grey"
 		], 
 	{}]],
 	["Scout", [[
@@ -467,7 +474,7 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"OPTRE_M393_Scope",
 		"OPTRE_M393_EOTECH",
 		"OPTRE_15Rnd_762x51_Mag",
-		"OPTRE_15Rnd_762x51_Mag_Tracer"
+		"OPTRE_15Rnd_762x51_Mag_Tracer",
 
 		//Sniper Rifle
 		"OPTRE_SRS99C",
@@ -633,7 +640,7 @@ cvo_arsenal_playerKit = createHashMapFromArray [
 
 [
 	"Officer - MA37",
-	[[["OPTRE_MA37","","","OPTRE_MA37_Smartlink_Scope",["OPTRE_32Rnd_762x51_Mag_Tracer",32],[],""],[],[],["OPTRE_UNSC_Marine_Uniform",[["ACE_elasticBandage",10],["ACE_splint",4],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_quikclot",10],["ACE_painkillers",1,10],["SmokeShellBlue",2,1]]],["OPTRE_UNSC_M52A_Armor1_MAR",[["ACRE_PRC148",1],["OPTRE_M9_Frag",2,1],["OPTRE_32Rnd_762x51_Mag_Tracer",3,32],["OPTRE_32Rnd_762x51_Mag",3,32]]],["OPTRE_ANPRC_515",[["ACRE_PRC117F",1]]],"OPTRE_UNSC_CH252_Helmet2_Vacuum_MAR","G_Balaclava_TI_blk_F",["OPTRE_Smartfinder","","","",["Laserbatteries",1],[],""],["ItemMap","","","ItemCompass","ItemWatch","OPTRE_NVG_HURS_HUL"]],[["ace_earplugs",true]]]
+	[[["OPTRE_MA37","","","OPTRE_MA37_Smartlink_Scope",["OPTRE_32Rnd_762x51_Mag_Tracer",32],[],""],[],[],["OPTRE_UNSC_Marine_Uniform_SlimLeg",[["ACE_elasticBandage",10],["ACE_splint",4],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_quikclot",10],["ACE_painkillers",1,10],["SmokeShellBlue",2,1]]],["OPTRE_UNSC_M52A_Armor1_MAR",[["ACRE_PRC148",1],["OPTRE_M9_Frag",2,1],["OPTRE_32Rnd_762x51_Mag_Tracer",3,32],["OPTRE_32Rnd_762x51_Mag",3,32]]],["OPTRE_ANPRC_515",[["ACRE_PRC117F",1]]],"OPTRE_UNSC_CH252_Helmet2_Vacuum_MAR","G_Balaclava_TI_blk_F",["OPTRE_Smartfinder","","","",["Laserbatteries",1],[],""],["ItemMap","","","ItemCompass","ItemWatch","OPTRE_NVG_HURS_HUL"]],[["ace_earplugs",true]]]
 ] call ace_arsenal_fnc_addDefaultLoadout;
 
 [
@@ -653,7 +660,7 @@ cvo_arsenal_playerKit = createHashMapFromArray [
 
 [
 	"Rifleman - BR55",
-	[[["OPTRE_BR55_Grey","","OPTRE_M45_Flashlight","OPTRE_BR55HB_Scope_Grey",["OPTRE_36Rnd_95x40_Mag",36],[],""],[],[],["OPTRE_UNSC_Marine_Uniform_SlimLeg",[["ACE_elasticBandage",10],["ACE_splint",4],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_quikclot",10],["ACE_painkillers",1,10],["SmokeShellBlue",2,1]]],["OPTRE_UNSC_M52A_Armor_Marksman_MAR",[["ACRE_PRC343",1],["OPTRE_36Rnd_95x40_Mag_Tracer",7,36],["OPTRE_36Rnd_95x40_Mag",7,36]]],["OPTRE_UNSC_Rucksack",[["SmokeShell",2,1],["OPTRE_M9_Frag",4,1]]],"OPTRE_UNSC_CH252_Helmet2_MAR","G_Bandanna_tan",["Rangefinder","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","OPTRE_NVG"]],[["ace_earplugs",true]]]
+	[[["OPTRE_BR55_Grey","","OPTRE_M45_Flashlight","OPTRE_BR55HB_Scope_Grey",["OPTRE_36Rnd_95x40_Mag",36],[],""],[],[],["OPTRE_UNSC_Marine_Uniform_SlimLeg",[["ACE_elasticBandage",10],["ACE_splint",4],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_quikclot",10],["ACE_painkillers",1,10],["SmokeShellBlue",2,1]]],["OPTRE_UNSC_M52A_Armor_Rifleman_MAR",[["ACRE_PRC343",1],["OPTRE_36Rnd_95x40_Mag_Tracer",7,36],["OPTRE_36Rnd_95x40_Mag",7,36]]],["OPTRE_UNSC_Rucksack",[["SmokeShell",2,1],["OPTRE_M9_Frag",4,1]]],"OPTRE_UNSC_CH252_Helmet2_MAR","G_Bandanna_tan",["Rangefinder","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","OPTRE_NVG"]],[["ace_earplugs",true]]]
 ] call ace_arsenal_fnc_addDefaultLoadout;
 
 

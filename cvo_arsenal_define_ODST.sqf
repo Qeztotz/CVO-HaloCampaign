@@ -120,6 +120,7 @@ cvo_arsenal_base append [
 	"ACE_salineIV_250",
 	"ACE_personalAidKit",
 	"ACE_bodyBag",
+	"ACE_painkillers",
 	"OPTRE_Biofoam"
 	];
 

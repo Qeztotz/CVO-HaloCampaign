@@ -120,6 +120,7 @@ cvo_arsenal_base append [
 	"ACE_salineIV_250",
 	"ACE_personalAidKit",
 	"ACE_bodyBag",
+	"ACE_painkillers",
 	"OPTRE_Biofoam"
 	];
 
@@ -367,7 +368,7 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"ACE_bloodIV_250",
 		// "ACE_suture",
 		"ACE_surgicalKit",
-		"OPCOS_UNSC_M52D_Armor_Medic_Blue",
+		"OPTRE_UNSC_M52A_Armor_Corpsman_MAR",
 		"OPTRE_UNSC_Rucksack_Medic",
 		"OPTRE_UNSC_CH252_Helmet2_MAR_MED",
 		"OPTRE_UNSC_CH252_Helmet_MAR_MED",
